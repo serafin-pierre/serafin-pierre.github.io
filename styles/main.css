@@ -1,0 +1,87 @@
+body {
+  background: #f1f1f1;
+  margin: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.tcenter{
+  text-align:center
+}
+
+.tleft{
+  text-align:left
+}
+
+.wordw {  
+  word-wrap: break-word; 
+  padding: 25px 50px 75px 100px; 
+}  
+
+/* Changes color based on side of screen
+
+
+*/
+/* @media (min-width:320px){
+  body {
+  background-color: rgb(229, 255, 0);
+}
+}
+
+@media (min-width:768px ){
+  body {
+  background-color: red;
+}
+}
+
+@media (min-width:1200px ){
+  body {
+  background-color: green;
+}
+} */
+
+@media (max-width:320px){
+  #plant1 {
+  Display:none;
+}
+}
+
+@media (max-width:768px ){
+  #plant1 {
+    max-width: 75%;
+    height: auto;
+}
+}
+
+@media (max-width:1200px ){
+  body {
+  background-color: rgb(223, 223, 223);
+}
+}
+
+.linktree {
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+
+.linktext{
+  font-size: 17px;
+  text-decoration: underline;
+  color: rgb(15, 15, 15);
+  padding: 0.4rem;
+  
+
+}
+
+.container {
+  width:65%;
+  margin: 0 auto;
+}
