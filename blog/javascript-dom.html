@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript - DOM</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../styles/main.css" type="text/css">
+
+
+<style> 
+body,h1,h2,h3,h4,h5 {font-family: "Raleway"}
+
+</style>
+</head>
+<body>
+  <header class="tcenter">
+  <h1> Javascript, the DOM & You. </h1>
+  <img src="https://onedesblog.com/wp-content/uploads/2021/07/keyboard-minimalist-wallpaper.jpg">
+  </header>
+
+  <div class="tcenter">Hello again friend :)</div>
+  <div class="tcenter, container">
+  <p>
+    <br>
+    <h5>Intro.</h5>
+     Today we explore Javascript and it's relationship to HTML & CSS.<br>
+     We will explain what <i>Control Flow & Loops</i> are. <br>
+     Give you a description of the DOM and an interaction example. <br>
+     Explain differences between arrays & objects and how getting data from each differs.<br>
+     We will end this exploration with an explanation on Functions.
+  </p>
+  </div>
+
+  <div class="tcenter, container">
+    <h2> Javascript. HTML. CSS.</h2>
+  <p>
+    Think about any movie you have ever seen. <br>
+    HTML would be stripping everything to its basics of what you see on screen, 
+    whats left are actors appearing on a screen.<br>
+    CSS adds in the detail, the clothes, color, props and set.<br> CSS makes things pretty.<br>
+    Finally you have JavaSCRIPT, very aptly named.<br> It is the controlling aspect of what you see onscreen,
+    what the actors say, what you hear, the interactions with everything. 
+    In the end they all combine to create something magical.<br>
+  </p>
+  <header class="tcenter">
+  <img src="../images/RusselZues.png">
+  </header>
+  </div>
+
+  <div class="tcenter, container">
+    <h2> Control Flow. Loops.</h2>
+        Control flow is how your computer reads and runs your code. <br>
+        Like how you would read a numbered checklist. 1, 2, 3, 4, etc... 
+        this would be how it <i>flows</i> <br>
+        The control part is any statement that changes the flow for example:
+        <header class="tcenter">
+        <img src="../images/Loopa.png">
+        </header><br>
+        This (very badly drawn image I did in paint.) is the basic concept of a looping statement.<br>
+    <h3>What are Loops?</h3>
+        Well my friend Loops are a simply a statement 
+        that keeps running again and again 
+        until there is nothing left to loop or the condition becomes false.
+        If we take the above image as an example. Say your making sandwiches for your family or friends.
+        The loop would be making the sandwiches, the condition to stop would be nobody else wants anymore sandwiches.
+        And thus the loop is broken and you get to have lunch with the people you made food for.<br>
+        <br>
+        <header class="tcenter">
+        <img src="../images/SandwichCounting.png">
+        </header><br>
+        This code shows how a loop would work if you were to use it to make sandwiches and you had 5 hungry people 
+        Please Ignore the + 1 in the conditional as Javascript starts counting from 0 
+        in most cases so we have to account for that(Just imagine one sandwich flew off into the void).
+        
+  </div>
+
+
+        <div class="tcenter, container">
+        <h2> The DOM. </h2>
+        This section will not include whips, paddles or the Torreto Familiy flying cars into outer space(unfortunately).
+        The DOM we are referring to today is the Document Object Model. 
+        This neutral interface that allows programs and scripts to 
+        change the structure and style of a document. <br> <br>
+        <header class="tcenter">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png"> <br><br>
+        </header>
+        This is the structure that the DOM represents as little nodes and objects. 
+        We can imagine this as clay. HTML, JavaScript and CSS would be the artist molding the clay 
+        how it sees fit to create a magical web page.
+        <h5>Interaction Example</h5>
+        <header class="tcenter">
+        <img src="../images/Breakdown.png"><br><br>
+        </header>
+        This line of code is written in JavaScript. 
+          breaking it down like this lets you see how the DOM is able to be selected by objects, classes and IDs.
+          Using this you could manipulate the element where this class is located.
+        
+  </div>
+
+
+        <div class="tcenter, container">
+          <h2>Objects{} vs. Arrays[]</h2>
+          Objects and arrays are ways to store data in javascript. 
+          But the way they are stored is different.
+          Arrays use an index to store information. for example:<br><br>
+
+          <b>let coffee = [Latte, FlatWhite, Black, Espresso, Irish]</b>
+          <br><br>
+          because JavaScript starts counting in arrays at 0, Latte here would be called as 
+          coffee[0]. Irish being coffee[4]. Arrays are accessed using the number equivalent from the array using the specified index number.
+
+          Objects store data using //Key: "Value"// pairs. The key would be a folder/binder you had and the value would be the data stored within.
+          For Example:
+          <br><br>
+          <b>
+          let cake = {<br>
+            flavour: "chocolate",<br>
+            icing: "vanilla buttercream",<br>
+            shape: "square"<br>
+            type: "brithday"<br>
+          }
+        </b>
+          <br><br>
+          This is the data stored within the Object Cake. 
+          Using the object.key we can get the code to tell us that cake.flavour is "chocolate".
+          Using the object['Key'] would get the same result using differnt syntax.
+
+   </div>
+
+         <div class="tcenter, container">
+          <h2>Functions</h2>
+         Functions are a set of statements that performs a task or calculates a value. They are not used unless called upon.
+         Sound confusing? Well lets now imagine you are a coach for a sports team. Every function is a set play that you get your team to execute.
+         But the team doesnt know to execute it unless you tell them to. 
+         In Javascript, you can use these at anytime anywhere. 
+         Functions are always ready.
+
+         <header class="tcenter">
+         <img src="https://assets-global.website-files.com/6189404e5f729a53def89065/623b1154501f63297652bc8f_Playbook-1024x614.jpg">
+        </headerclass>
+        
+        
+        
+        
+        </div>
+
+
+
+
+  <div id="Links" class="container, tcenter">
+    <h3 >Links.</h3>
+    <a class="linktext" href="tech-menu.html"> Tech. </a>
+    <a class="linktext" href="core-menu.html"> Core. </a>
+    <a class="linktext" href="https://devacademy.co.nz/"> EDA. </a>
+    <a class="linktext" href="../index.html"> Home. </a>
+    </div>
+</body>
+</html>
+
+
+
+
