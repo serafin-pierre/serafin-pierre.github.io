@@ -1,5 +1,5 @@
 body {
-  background: #f1f1f1;
+  background: #e6e6e6ad;
   margin: 0;
 }
 
@@ -12,6 +12,7 @@ img {
 
 .tcenter{
   text-align:center
+  
 }
 
 .tleft{
@@ -91,3 +92,12 @@ img {
   }
 
   
+div {
+
+  font-size: 1.5rem;
+}
+
+h1,h2,h3,h4,h5 {
+
+  text-align:center
+}
